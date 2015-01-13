@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/logInPopup"
+    tools:context=".registerDialog"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userPopUp"
+        android:text="@string/user"
+        android:paddingTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newUser"
+        android:inputType="text"
+        android:layout_below="@+id/userPopUp"
+        android:layout_alignLeft="@+id/userPopUp"
+        android:layout_alignStart="@+id/userPopUp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordPopUp"
+        android:text="@string/password"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/newUser"
+        android:layout_alignLeft="@+id/newUser"
+        android:layout_alignStart="@+id/newUser" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newPassword"
+        android:inputType="text"
+        android:layout_below="@+id/passwordPopUp"
+        android:layout_alignLeft="@+id/newUser"
+        android:layout_alignStart="@+id/newUser" />
+
+
+</RelativeLayout>

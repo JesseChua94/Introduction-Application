@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/logInScreen"
+    tools:context=".LogInScreen">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/user"
+        android:text="@string/user"
+        android:layout_marginLeft="108dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="212dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/userText"
+        android:layout_width="200dp"
+        android:inputType="text"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user"
+        android:layout_alignLeft="@+id/user"
+        android:layout_alignStart="@+id/user" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:layout_below="@+id/userText"
+        android:layout_alignLeft="@+id/userText"
+        android:layout_alignStart="@+id/userText"
+        android:id="@+id/textView"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logIn"
+        android:text="@string/logIn"
+        android:layout_alignRight="@+id/password"
+        android:layout_below="@+id/password"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/register"
+        android:text="@string/register"
+        android:onClick="onClickPop"
+        android:layout_alignTop="@+id/logIn"
+        android:layout_toLeftOf="@+id/logIn"/>
+
+    </RelativeLayout>
