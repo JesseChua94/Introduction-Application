@@ -1,5 +1,6 @@
 # Introduction-Application
-An unfinished introduction application to myself to both introduce myself and display my knowledge of different android implementations and concepts
+An unfinished introduction application to myself to both introduce myself and display my knowledge of different android implementations and concepts. The code isn't the cleanest at the moment. It is lacking comments and probably has style errors.
+Will be fixing this when farther into the app.
 
 Currently implemented:
 
