@@ -26,6 +26,10 @@
             android:label="IntroApp"
             android:theme="@style/Theme.AppCompat.NoActionBar">
         </activity>
+        <activity android:name=".ThirdScreen"
+            android:label="IntroApp"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+        </activity>
 
     </application>
 </manifest>

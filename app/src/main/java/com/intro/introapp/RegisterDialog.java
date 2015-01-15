@@ -22,6 +22,7 @@ public class RegisterDialog extends DialogFragment {
         LayoutInflater inflater = getActivity().getLayoutInflater();
         final View dialogView = inflater.inflate(R.layout.log_in_popup, null);
         final UserInfoAdapter userInfo = new UserInfoAdapter(getActivity());
+
         builder.setView(dialogView)
                 .setPositiveButton(R.string.create, new DialogInterface.OnClickListener() {
                     @Override
@@ -32,14 +33,7 @@ public class RegisterDialog extends DialogFragment {
                         String user = userName.getText().toString();
                         String pass = password.getText().toString();
 
-                        boolean insert = userInfo.insertUser(user, pass);
-
-
-
-
-
-
-
+                        userInfo.insertUser(user, pass);
                     }
                 })
                 .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
