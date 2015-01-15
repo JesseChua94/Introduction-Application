@@ -14,8 +14,9 @@ Currently implemented:
 
 -A database created in Android Studio.
 
-Currently to do:
-
 -Check existing users when the 'Log in' button is pressed.
+
+
+Currently to do:
 
 -Implement other interesting Android features (not yet decided).
