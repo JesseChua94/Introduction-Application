@@ -1,8 +1,7 @@
-# Introduction-Application
-An unfinished introduction application to myself to both introduce myself and display my knowledge of different android implementations and concepts. The code isn't the cleanest at the moment. It is lacking comments and probably has style errors.
-Will be fixing this when farther into the app.
+# Login-System
+A simple login system implementation.
 
-Currently implemented:
+Features implemented:
 
 -Screen sliding via a viewpager.
 
@@ -15,8 +14,3 @@ Currently implemented:
 -A database created in Android Studio.
 
 -Check existing users when the 'Log in' button is pressed.
-
-
-Currently to do:
-
--Implement other interesting Android features (not yet decided).
