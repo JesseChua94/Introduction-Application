@@ -2,7 +2,6 @@ package com.intro.introapp;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.View;
 
 /**
  * Created by Jesse on 2015-01-14.

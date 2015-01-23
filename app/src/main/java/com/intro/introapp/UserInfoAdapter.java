@@ -5,7 +5,6 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.support.v4.view.PagerAdapter;
 import android.widget.Toast;
 
 /**
@@ -35,7 +34,8 @@ public class UserInfoAdapter {
             db.insert(UserInfo.TABLE_NAME, null, cv);
         }
     }
-
+    //Wasn't sure how to check for username and password for register and just
+    //username for login without overloading. This is just a quick solution.
     public boolean getUser (String user, String password){
         SQLiteDatabase db = helper.getWritableDatabase();
 
